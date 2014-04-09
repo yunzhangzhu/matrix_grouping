@@ -7,7 +7,12 @@ You need to have [R][R-website] installed before compiling the code.
 You have to install R from source on a linux machine.
 
 To compile the C/C++ code, just type `make` in the root directory. To
-recompile, first type `make clean`, then type `make`. To run the 
+recompile, first type `make clean`, then type `make`. 
+
+
+
+###Example
+To run the 
 provided example, just excute `example.R` file in R  
 
 ~~~ R
