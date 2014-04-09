@@ -11,9 +11,7 @@ recompile, first type `make clean`, then type `make`. To run the
 provided example, just excute `example.R` file in R  
 
 ~~~ R
-
 source("src/R/example.R")
-
 ~~~ 
 
 The solution path for convex and non-convex method are stored in 
