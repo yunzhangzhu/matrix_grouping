@@ -25,6 +25,6 @@ a list object `sol_path`, consisting of two arrays: `sol_nonconvex`
  using truncated $$L_1$$ penalty and the second one refering to that of 
  $$L_1$$ penalty. The array indices are arranged in a way such that 
  `sol_nonconvex[,,j,i]` is refering to the solution corresponding 
- to grid point `(lambda1[i], lambda2[j])`.   
+ to grid point `(Lambda1.vec[i], Lambda2.vec[j])`.   
 
 [R-website]: http://www.r-project.org/
