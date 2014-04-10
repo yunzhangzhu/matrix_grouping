@@ -43,8 +43,8 @@ for (l in 1:L){
 
 
 ################ matrices generation ends ###############
-Lambda1.vec <- log(p)*c(.8,.5,.4,.3,0.2) #lasso penlaty
-Lambda2.vec <- log(p)*c(.1,.08,.06,.05,.04,.03,0) #grouping penalty
+Lambda1.vec <- log(p)*c(.8, .5, .4, .3, 0.2) #lasso penlaty
+Lambda2.vec <- log(p)*c(.1, .08, .06, .05, .04, .03, .0) #grouping penalty
 tau <- c(0.01) #thresholding parameter
 
 ################# generating graphs ##################

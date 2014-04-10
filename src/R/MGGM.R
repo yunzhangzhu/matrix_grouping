@@ -28,7 +28,7 @@ MGGM.path <- function(S_bar, # p by p*L matrix: [S_1, ... ,S_L] with S_l being t
 	  	NumOfEdges=as.integer(NumOfEdge),eps_mat=as.double(eps_mat))
 	
 	sol_path = list()
-	sol_path$sol_nonconvex = matrix(out$covmat_inverse_path,nrow=p,ncol=p*L*grid.lambda1*grid.lambda2)
-	sol_path$sol_convex = matrix(out$covmat_inverse_con_path,nrow=p,ncol=p*L*grid.lambda1*grid.lambda2)
+	sol_path$sol_nonconvex = array(out$covmat_inverse_path, dim=c(p,p*L,grid.lambda2,grid.lambda1))
+	sol_path$sol_convex = array(out$covmat_inverse_con_path, dim=c(p,p*L,grid.lambda2,grid.lambda1))
 	return (sol_path)
 }

@@ -20,6 +20,11 @@ source("src/R/example.R")
 ~~~ 
 
 The solution path for convex and non-convex method are stored in 
-a list object `sol_path`.
+a list object `sol_path`, consisting of two arrays: `sol_nonconvex`
+ and `sol_convex`, with the first one refering to the solution path
+ using truncated $$L_1$$ penalty and the second one refering to that of 
+ $$L_1$$ penalty. The array indices are arranged in a way such that 
+ `sol_nonconvex[,,j,i]` is refering to the solution corresponding 
+ to grid point `(lambda1[i], lambda2[j])`.   
 
 [R-website]: http://www.r-project.org/
