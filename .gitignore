@@ -12,6 +12,11 @@
 
 *.sh
 
+
+# temporary R files 
+*.Rout
+*.Rhistory
+
 # Compiled Static libraries
 *.lai
 *.la
